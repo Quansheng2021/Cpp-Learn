@@ -18,5 +18,14 @@
     <ClCompile Include="ValueRefencePass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
