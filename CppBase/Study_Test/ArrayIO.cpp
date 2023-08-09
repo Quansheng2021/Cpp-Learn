@@ -3,14 +3,14 @@ using namespace std;
 
 template <typename T ,int N>  
 
-//¹ØÓÚtemplate Óë classÓÃ×÷Ä£°åÇø±ğ.
-//C++µÄÒ»°ã¹æÔòÊÇ£¬³ıÁËÊ¹ÓÃtypenameĞŞÊÎÖ®Íâ£¬templateÄÚµÄÈÎºÎ±êÊ¶·ûºÅ¶¼±»ÊÓÎªÒ»¸öÖµ¶ø²»ÊÇÒ»¸öÀà±ğ(¶ÔÏó)¡£
+//å…³äºtypename ä¸ classç”¨ä½œæ¨¡æ¿åŒºåˆ«.
+//C++çš„ä¸€èˆ¬è§„åˆ™æ˜¯ï¼Œé™¤äº†ä½¿ç”¨typenameä¿®é¥°ä¹‹å¤–ï¼Œtemplateå†…çš„ä»»ä½•æ ‡è¯†ç¬¦å·éƒ½è¢«è§†ä¸ºä¸€ä¸ªå€¼è€Œä¸æ˜¯ä¸€ä¸ªç±»åˆ«(å¯¹è±¡)ã€‚
 
-//typenameÔÚÏÂÃæÇé¿öÏÂ½ûÖ¹Ê¹ÓÃ£º
-//1,Ä£°å¶¨ÒåÖ®Íâ£¬¼´typenameÖ»ÄÜÓÃÓÚÄ£°åµÄ¶¨ÒåÖĞ
-//2,·ÇÏŞ¶¨ÀàĞÍ£¬±ÈÈçint£¬vector<int>Ö®Àà
-//3,»ùÀàÁĞ±íÖĞ£¬±ÈÈçtemplate <class t> class c1 : t::innertype²»ÄÜÔÚt::innertypeÇ°Ãæ¼Ótypename
-//4,¹¹Ôìº¯ÊıµÄ³õÊ¼»¯ÁĞ±íÖĞ
+//typenameåœ¨ä¸‹é¢æƒ…å†µä¸‹ç¦æ­¢ä½¿ç”¨ï¼š
+//1,æ¨¡æ¿å®šä¹‰ä¹‹å¤–ï¼Œå³typenameåªèƒ½ç”¨äºæ¨¡æ¿çš„å®šä¹‰ä¸­
+//2,éé™å®šç±»å‹ï¼Œæ¯”å¦‚intï¼Œvector<int>ä¹‹ç±»
+//3,åŸºç±»åˆ—è¡¨ä¸­ï¼Œæ¯”å¦‚template <class t> class c1 : t::innertypeä¸èƒ½åœ¨t::innertypeå‰é¢åŠ typename
+//4,æ„é€ å‡½æ•°çš„åˆå§‹åŒ–åˆ—è¡¨ä¸­
 //----------------------------------------------------
 //class Mydata {
 //    static int value;
@@ -21,15 +21,15 @@ template <typename T ,int N>
 //template <class T>
 //void function()
 //{
-//    T::iterator* iter;  //ÕâÀï²úÉúÆçÒå.ÆçÒåÒ»:T::iterator *iter;ÊµÏÖ³Ë·¨£¬iteratorÊÇÀàTµÄÒ»¸ö³ÉÔ±£»ÆçÒå¶ş£º¶¨ÒåÒ»¸öÖ¸Õë£¬Ö¸ÕëÖ¸ÏòµÄÀàĞÍÎªT::iterator£»
+//    T::iterator* iter;  //è¿™é‡Œäº§ç”Ÿæ­§ä¹‰.æ­§ä¹‰ä¸€:T::iterator *iter;å®ç°ä¹˜æ³•ï¼Œiteratoræ˜¯ç±»Tçš„ä¸€ä¸ªæˆå‘˜ï¼›æ­§ä¹‰äºŒï¼šå®šä¹‰ä¸€ä¸ªæŒ‡é’ˆï¼ŒæŒ‡é’ˆæŒ‡å‘çš„ç±»å‹ä¸ºT::iteratorï¼›
 //    .....
 //}
 //
 //template <class T>
 //class myData()
 //{
-//    typename T::iterator* iter;//¶¨ÒåÒ»¸öÖ¸Õë,ÕâÀï²»ÄÜÊ¹ÓÃclass
-//    typedef typename iterator_traits<_Iter>::value_type  value _type;//¶¨ÒåÒ»¸ö±ğÃû
+//    typename T::iterator* iter;//å®šä¹‰ä¸€ä¸ªæŒ‡é’ˆ,è¿™é‡Œä¸èƒ½ä½¿ç”¨class
+//    typedef typename iterator_traits<_Iter>::value_type  value _type;//å®šä¹‰ä¸€ä¸ªåˆ«å
 //    .....
 //};
 //----------------------------------------------------
@@ -37,6 +37,6 @@ template <typename T ,int N>
 
 void main() {
     //template <typename T ,int N>  
-    //Error:templateÖ»ÄÜÔÚÈ«¾Ö£¬ÃüÃû¿Õ¼äºÍÀàÄÚÉùÃ÷¡£
-    //¶ÔÓÚtemplateµÄÊµÏÖ£¬ĞèÒªtemplateÖĞµÄËùÓĞ·ûºÅ¶¼ÄÜ¹»±»Íâ²¿Á´½Ó¡£
+    //Error:templateåªèƒ½åœ¨å…¨å±€ï¼Œå‘½åç©ºé—´å’Œç±»å†…å£°æ˜ã€‚
+    //å¯¹äºtemplateçš„å®ç°ï¼Œéœ€è¦templateä¸­çš„æ‰€æœ‰ç¬¦å·éƒ½èƒ½å¤Ÿè¢«å¤–éƒ¨é“¾æ¥ã€‚
 }

@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ValueRefencePass.cpp">
+    <ClCompile Include="值传递与引用传递.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ArrayIO.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TemplateArray.cpp">
+    <ClCompile Include="模板数组的使用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="模板特化.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
