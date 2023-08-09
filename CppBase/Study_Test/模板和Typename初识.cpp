@@ -7,7 +7,7 @@ template <typename T ,int N>
 //C++的一般规则是，除了使用typename修饰之外，template内的任何标识符号都被视为一个值而不是一个类别(对象)。
 
 //typename在下面情况下禁止使用：
-//1,模板定义之外，即typename只能用于模板的定义中
+//1,模板定义之外，即typename只能用于模板的定义中.
 //2,非限定类型，比如int，vector<int>之类
 //3,基类列表中，比如template <class t> class c1 : t::innertype不能在t::innertype前面加typename
 //4,构造函数的初始化列表中
