@@ -13,19 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\语法学习">
+      <UniqueIdentifier>{b7a95cf9-95c7-41e0-af97-f145dd77e8e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="值传递与引用传递.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ArrayIO.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="模板和Typename初识.cpp">
+      <Filter>源文件\语法学习</Filter>
     </ClCompile>
     <ClCompile Include="模板数组的使用.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\语法学习</Filter>
     </ClCompile>
     <ClCompile Include="模板特化.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="值传递与引用传递.cpp">
+      <Filter>源文件\语法学习</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
