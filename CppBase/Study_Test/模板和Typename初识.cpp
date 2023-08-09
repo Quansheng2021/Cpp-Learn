@@ -8,7 +8,7 @@ template <typename T ,int N>
 
 //typename在下面情况下禁止使用：
 //1,模板定义之外，即typename只能用于模板的定义中.
-//2,非限定类型，比如int，vector<int>之类
+//2,非限定类型，比如int，vector<int>之类.
 //3,基类列表中，比如template <class t> class c1 : t::innertype不能在t::innertype前面加typename
 //4,构造函数的初始化列表中
 //----------------------------------------------------
