@@ -30,6 +30,9 @@
     <ClCompile Include="值传递与引用传递.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
+    <ClCompile Include="仿函数.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
