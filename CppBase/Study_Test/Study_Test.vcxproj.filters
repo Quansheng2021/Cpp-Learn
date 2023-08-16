@@ -36,6 +36,9 @@
     <ClCompile Include="作用域.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
+    <ClCompile Include="BarketAndDelare.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
