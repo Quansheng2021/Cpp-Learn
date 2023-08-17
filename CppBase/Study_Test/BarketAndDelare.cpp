@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 			  
-//ÏÂÃæÁ½ÖÖ³õÊ¼»¯·½Ê½µÈ¼Û
+//ä¸‹é¢ä¸¤ç§åˆå§‹åŒ–æ–¹å¼ç­‰ä»·
 int a{ 5 };
 int b = 5;
 
-//ÏÂÃæÁ½ÖÖ³õÊ¼»¯·½Ê½µÈ¼Û
+//ä¸‹é¢ä¸¤ç§åˆå§‹åŒ–æ–¹å¼ç­‰ä»·
 int arrA[5]{ 6,7,8,9,10 };
 int arrB[5] = { 1,2,3,4,5 };				
 
@@ -32,17 +32,17 @@ int main(){
 	cout << arrA[1]<< endl;
 	cout << arrB[1] << endl;
 
-#pragma region	ÀàµÄ³õÊ¼»¯
+#pragma region	ç±»çš„åˆå§‹åŒ–
 	barketDeclareClass InstanceClassBarket0 = { 0,"b0" };
 	cout << InstanceClassBarket0.a << endl;
 	barketDeclareClass InstanceClassBarket1{ 1,"b1" };
 	cout << InstanceClassBarket1.a << endl;
-	//ÉÏÃæµÄ2¸ö³õÊ¼»¯µÄÀı×Ó¿ÉÒÔÊ¹ÓÃÄ¬ÈÏ¹¹Ôìº¯Êı
-	//ÏÂÃæÕâÖÖÇé¿ö,±ØĞëÀàÏÔÊ¾µÄÉùÃ÷¹¹Ôìº¯Êı,·ñÔò»áÈ±ÉÙ¶ÔÓ¦µÄº¯ÊıÖØÔØ
+	//ä¸Šé¢çš„2ä¸ªåˆå§‹åŒ–çš„ä¾‹å­å¯ä»¥ä½¿ç”¨é»˜è®¤æ„é€ å‡½æ•°
+	//ä¸‹é¢è¿™ç§æƒ…å†µ,å¿…é¡»ç±»æ˜¾ç¤ºçš„å£°æ˜æ„é€ å‡½æ•°,å¦åˆ™ä¼šç¼ºå°‘å¯¹åº”çš„å‡½æ•°é‡è½½
 	barketDeclareClass InstanceClassBarket2(2, "b2");
 	cout << InstanceClassBarket2.a << endl;
 
-	//structºÍÀàµÄÉùÃ÷ÀàËÆ
+	//structå’Œç±»çš„å£°æ˜ç±»ä¼¼
 	barketDeclarestruct InstanceStructBarket0 = { 0,"a0", 'b' };
 	barketDeclarestruct InstanceStructBarket1{ 1,"a1", 'b' };
 	barketDeclarestruct InstanceStructBarket2(1, "a1", 'b');

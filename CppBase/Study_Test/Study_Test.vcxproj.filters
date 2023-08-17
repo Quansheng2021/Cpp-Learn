@@ -16,6 +16,9 @@
     <Filter Include="源文件\语法学习">
       <UniqueIdentifier>{b7a95cf9-95c7-41e0-af97-f145dd77e8e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\语法错误">
+      <UniqueIdentifier>{137ce7d4-7950-4b8b-8643-d3a143de6548}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="模板和Typename初识.cpp">
@@ -38,6 +41,24 @@
     </ClCompile>
     <ClCompile Include="BarketAndDelare.cpp">
       <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="DelegateExp.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="imitationFunc.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="inheritAndConstruct.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="声明与定义.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="可变参数.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="E0300.cpp">
+      <Filter>源文件\语法错误</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
