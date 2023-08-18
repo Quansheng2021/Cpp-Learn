@@ -30,7 +30,7 @@
     <ClCompile Include="模板特化.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
-    <ClCompile Include="值传递与引用传递.cpp">
+    <ClCompile Include="ValuePassAndRefencePass.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
     <ClCompile Include="仿函数.cpp">
