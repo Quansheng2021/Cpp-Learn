@@ -12,6 +12,8 @@ void swap_pot1(int *x, int *y) {
 	cout << "swap_pot1执行后x，y的值" << x << "," << y << endl;
 }
 
+//这里虽然也是采用的指针类型参数，但是函数内部只交换了 指针值， 并没有对指针指向的值进行改变， 所以最终结果并没有改变
+//请区分， 指针变量的 指针值 ， 与 指针指向的值 
 void swap_pot2(int* x, int* y) {
 	cout << "swap_pot2形参int*类型，传入a,b实参后；x，y的值为地址" << x << "," << y << endl;
 	int *temp;

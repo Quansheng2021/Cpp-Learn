@@ -19,17 +19,11 @@
     <Filter Include="源文件\语法错误">
       <UniqueIdentifier>{137ce7d4-7950-4b8b-8643-d3a143de6548}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\语法学习\模板相关">
+      <UniqueIdentifier>{469ff3ff-c425-42b9-9b58-e52cf87f8c9b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="模板和Typename初识.cpp">
-      <Filter>源文件\语法学习</Filter>
-    </ClCompile>
-    <ClCompile Include="模板数组的使用.cpp">
-      <Filter>源文件\语法学习</Filter>
-    </ClCompile>
-    <ClCompile Include="模板特化.cpp">
-      <Filter>源文件\语法学习</Filter>
-    </ClCompile>
     <ClCompile Include="ValuePassAndRefencePass.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
@@ -59,6 +53,24 @@
     </ClCompile>
     <ClCompile Include="E0300.cpp">
       <Filter>源文件\语法错误</Filter>
+    </ClCompile>
+    <ClCompile Include="LvalueRvalue.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="模板特化.cpp">
+      <Filter>源文件\语法学习\模板相关</Filter>
+    </ClCompile>
+    <ClCompile Include="模板数组的使用.cpp">
+      <Filter>源文件\语法学习\模板相关</Filter>
+    </ClCompile>
+    <ClCompile Include="模板和Typename初识.cpp">
+      <Filter>源文件\语法学习\模板相关</Filter>
+    </ClCompile>
+    <ClCompile Include="模板与重载.cpp">
+      <Filter>源文件\语法学习\模板相关</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
