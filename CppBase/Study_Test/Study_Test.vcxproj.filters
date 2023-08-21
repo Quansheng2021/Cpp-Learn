@@ -60,7 +60,7 @@
     <ClCompile Include="malloc.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
-    <ClCompile Include="模板特化.cpp">
+    <ClCompile Include="TemplateSpecialization.cpp">
       <Filter>源文件\语法学习\模板相关</Filter>
     </ClCompile>
     <ClCompile Include="模板数组的使用.cpp">
@@ -69,7 +69,10 @@
     <ClCompile Include="模板和Typename初识.cpp">
       <Filter>源文件\语法学习\模板相关</Filter>
     </ClCompile>
-    <ClCompile Include="模板与重载.cpp">
+    <ClCompile Include="Template_OverloadCall.cpp">
+      <Filter>源文件\语法学习\模板相关</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
       <Filter>源文件\语法学习\模板相关</Filter>
     </ClCompile>
   </ItemGroup>
