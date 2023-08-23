@@ -23,6 +23,7 @@
 int i = 42;
 int j = 10;
 
+int* pt = &i;
 int& ref = i;//Error 引用必须初始化
 //int& ref = 42; 
 //int& ref = i * 24;

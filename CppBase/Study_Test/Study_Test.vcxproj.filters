@@ -72,8 +72,11 @@
     <ClCompile Include="Template_OverloadCall.cpp">
       <Filter>源文件\语法学习\模板相关</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件\语法学习\模板相关</Filter>
+    <ClCompile Include="NestedClass.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerAndRefence.cpp">
+      <Filter>源文件\语法学习</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
