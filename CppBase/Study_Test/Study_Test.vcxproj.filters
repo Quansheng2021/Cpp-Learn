@@ -22,11 +22,11 @@
     <Filter Include="源文件\语法学习\模板相关">
       <UniqueIdentifier>{469ff3ff-c425-42b9-9b58-e52cf87f8c9b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\语法学习\指针和引用">
+      <UniqueIdentifier>{52cb1ab3-b6e2-494d-9da9-52ee899be664}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ValuePassAndRefencePass.cpp">
-      <Filter>源文件\语法学习</Filter>
-    </ClCompile>
     <ClCompile Include="仿函数.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
@@ -43,9 +43,6 @@
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
     <ClCompile Include="inheritAndConstruct.cpp">
-      <Filter>源文件\语法学习</Filter>
-    </ClCompile>
-    <ClCompile Include="声明与定义.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
     <ClCompile Include="可变参数.cpp">
@@ -76,7 +73,16 @@
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
     <ClCompile Include="PointerAndRefence.cpp">
-      <Filter>源文件\语法学习</Filter>
+      <Filter>源文件\语法学习\指针和引用</Filter>
+    </ClCompile>
+    <ClCompile Include="ValuePassAndRefencePass.cpp">
+      <Filter>源文件\语法学习\指针和引用</Filter>
+    </ClCompile>
+    <ClCompile Include="ArryAndPointer.cpp">
+      <Filter>源文件\语法学习\指针和引用</Filter>
+    </ClCompile>
+    <ClCompile Include="指针转换.cpp">
+      <Filter>源文件\语法学习\指针和引用</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
