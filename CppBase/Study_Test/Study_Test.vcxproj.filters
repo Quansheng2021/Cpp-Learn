@@ -90,8 +90,12 @@
     <ClCompile Include="指针转换.cpp">
       <Filter>源文件\语法学习\指针和引用</Filter>
     </ClCompile>
+    <ClCompile Include="new.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>
