@@ -25,6 +25,9 @@
     <Filter Include="源文件\语法学习\指针和引用">
       <UniqueIdentifier>{52cb1ab3-b6e2-494d-9da9-52ee899be664}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\语法学习\接口">
+      <UniqueIdentifier>{a103aea9-739b-4eb2-907f-d07a33e5e606}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="仿函数.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="ArryAndPointer.cpp">
       <Filter>源文件\语法学习\指针和引用</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>源文件\语法学习\接口</Filter>
     </ClCompile>
     <ClCompile Include="指针转换.cpp">
       <Filter>源文件\语法学习\指针和引用</Filter>
