@@ -17,8 +17,8 @@ int FuncAdd(int a, int b) {
 
 
 int main() {
-	auto FuncExecute=std::bind(FuncAdd,10,10);
-	FuncExecute();
+	auto funcexecute=std::bind(FuncAdd,10,10);
+	funcexecute();
 	FuncAddPtr methAddPtr = FuncAdd;
 	methAddPtr(5, 6);
 	system("pause");

@@ -93,6 +93,9 @@
     <ClCompile Include="new.cpp">
       <Filter>源文件\语法学习</Filter>
     </ClCompile>
+    <ClCompile Include="深&amp;潜拷贝.cpp">
+      <Filter>源文件\语法学习</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
